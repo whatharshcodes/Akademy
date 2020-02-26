@@ -1,0 +1,40 @@
+*{margin:0;padding:0;}
+.wrap{width:100%;}
+.gradient-text{
+  background: linear-gradient(to right, black,#E2512D,black);
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  
+  -webkit-background-clip:text;
+  color:rgba(0,0,0,1);
+  display:block;
+  transition: color .2s ease-in-out;
+}
+.gradient-text:hover{
+  color:rgba(0,0,0,0);
+}
+@keyframes rainbow { 
+  0%{background-position:left}
+  50%{background-position:right}
+  100%{background-position:left}
+}
+
+.gradient-text2{
+    background: linear-gradient(to right, white, #E2512D, white );
+    background-size: 200% 200%;
+    animation: rainbow 10s linear infinite;
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:rgba(0,0,0,1);
+    display:block;
+    transition: color ease-in-out;
+  }
+  .gradient-text2{
+    color:rgba(0,0,0,0);
+  }
+  @keyframes rainbow { 
+    0%{background-position:left}
+    50%{background-position:right}
+    100%{background-position:left}
+  }

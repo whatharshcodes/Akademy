@@ -1,26 +1,191 @@
 .animatedBox {
-    width: 100%;
-    height: 100%;
-    /*background-image: url('images/done1bg.png');*/
-    
-    background-position: bottom;
-    
-    animation: moveBg 15s linear 0s infinite alternate-reverse running;
-    
-  }
-  
-  @keyframes moveBg {
-       
-        from {background-color: blue;}
-        
-        to {background-color: black;}
-        
-      
-  }
+  width: 100%;
+  height: 100%;
+  animation: moveBg 6s linear 0s infinite alternate running;
+}
 
-  h1{
-    text-align: center;
-    text-decoration: underline overline dotted white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 150px;
-  }
+@keyframes moveBg {
+	/*100% {
+	  background-position: bottom left;
+  }*/
+  from {background-color: white;}
+  to {background-color: #dbf6ff;}
+}
+
+img{
+  border-radius: 10px;
+}
+
+
+@font-face{
+  font-family:'cursive';
+  src: url('fonts/Advertising\ Script\ Bold\ Trial.ttf');
+ }
+
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+.contents-item a{
+  text-decoration: none;
+}
+body {
+  font-family: 'Lato';
+}
+
+li {
+  list-style: none;
+}
+
+/* Write your code below */
+.header {
+  font-family: 'Lato';
+  background-color: #235789;
+  color: white;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+
+.header-logo {
+  font-family: 'Pacifico';
+  color: #E2512D;
+  float: left;
+  font-size: 36px;
+  padding: 10px 40px;
+}
+
+.header-list {
+  float: left;
+}
+.header-list a{
+  text-decoration: none;
+}
+
+.header-list li {
+  float: left;
+  padding: 28px 20px;
+}
+
+.main {
+  padding: 100px 80px;
+}
+
+.copy-container h1 {
+  font-family: 'Lato';
+  font-size: 130px;
+}
+
+.copy-container h2 {
+  font-family: 'Lato';
+  font-size: 50px;
+  color: grey;
+}
+
+.copy-container span {
+  color: #E2512D;
+}
+
+.contents {
+  height: 500px;
+  margin-top: 100px;
+}
+
+.animatedBor {
+  border-bottom: 4px solid white;
+
+  animation: mymove 6s linear 0s infinite alternate running;
+}
+
+@keyframes mymove {
+  from {background-color: white;}
+  to {background-color: #E2512D;}
+}
+
+.section-title {
+  /* border-bottom: 2px solid #dee7ec; */
+  font-size: 42px;
+  color: #E2512D;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  font-family: 'Lato';
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+
+.contents-item p {
+  font-family: 'Lato';
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.contents-item iframe{
+  padding-top: 10px;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  padding-top: 300px;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: black;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 180px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-logo2{
+  font-family: 'Pacifico';
+  color: #E2512D;
+  text-align: center;
+  font-size: 72px;
+  padding: 0px 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.footer-list {
+  
+  float: left;
+}
+
+.footer-text {
+  padding-top: 25px;
+  float: right;
+
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}

@@ -1,23 +1,115 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
+    <title>Akademy</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="stylesheet" href="hoverbutton.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="animations.css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <title>Calculator</title>
-        
-        <link rel="stylesheet" href="w3.css">
-        <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body class="animatedBox">
+    <!-- Main Body Code -->
+    <div class="header">
+      <div class="header-logo gradient-text2">Akademy</div>
+      <div class="header-list">
+        <ul>
+          <li class="w3-hover-text-sand"><a href="#aboutus">About</a></li>
+          <li class="w3-hover-text-sand"><a href="#lesson">Lessons</a></li>
+          <li class="w3-hover-text-sand" ><a href="#contact">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
 
-    </head>
-    <body class="animatedBox">
-        <div>
-            <h1 class="w3-animate-zoom">RandomTITLE</h1>
+    <div class="main">
+      <div class="copy-container">
+        <h1 id="toobig" class="gradient-text">Watch. Learn. Grow<span>!</span></h1>
+        <h2 class="w3-hover-text-black w3-animate-opacity">Develop yourself by watching the<span> most advanced </span>online programming tutorials.</h2>
+      </div>
+      
+      <div class="contents">
+        <h3 id="lesson" class="section-title w3-animate-right animatedBor">Lessons</h3>
+        <div class="contents-item">
+            <a target="_blank" href="https://www.w3schools.com/html/">
+          <img class="w3-hover-opacity" src="images/html.png">
+          <p>HTML & CSS</p></a>
+        </div>
+        <div class="contents-item">
+            <a target="_blank" href="https://www.w3schools.com/php/">
+          <img class="w3-hover-opacity" src="images/php.png">
+          <p>PHP</p></a>
+        </div>
+        <div class="contents-item">
+            <a target="_blank" href="https://www.w3schools.com/javascript/">
+          <img class="w3-hover-opacity" src="images/js.svg">
+          <p>Javascript</p></a>
+        </div>
+        <div class="contents-item">
+            <a target="_blank" href="https://www.w3schools.com/swift/">
+          <img class="w3-hover-opacity" src="images/swift.webp">
+          <p>Swift</p></a>
         </div>
 
+        <div class="contents">
+            <h3 id="lesson" class="section-title w3-animate-right animatedBor">Video Lectures</h3>
+            
+        <div class="contents-item">
+            <iframe class="w3-hover-opacity" width="256" height="256" src="https://www.youtube.com/embed/8cm1x4bC610" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="contents-item">
+            <iframe class="w3-hover-opacity" width="256" height="256" src="https://www.youtube.com/embed/OK_JCtrrv-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="contents-item">
+            <iframe class="w3-hover-opacity" width="256" height="256" src="https://www.youtube.com/embed/PkZNo7MFNFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="contents-item">
+            <iframe class="w3-hover-opacity" width="256" height="256" src="https://www.youtube.com/embed/IIDiqgdn2yo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      </div>
+      <div id="contact" class="contact-form">
+        <h3 class="section-title w3-animate-right animatedBor">Contact us</h3>
+        <!-- <p>Email (Required)</p>
+        <input>
+        <p>Message (Required)</p>
+        <textarea></textarea>
+        <p>* Required fields must be filled</p>
+        <input class="contact-submit w3-button w3-hover-opacity" type="submit" value="Send">-->
+      </div> 
+    </div>
 
+    <!-- <button type="button" onclick="document.getElementById('toobig').style.fontSize='35px'">Text Too Big</button> -->
 
-
-
-
-    </body>
+    
+    
+    <!-- Fooooter -->
+    <div id="aboutus" class="footer w3-xxlarge">
+        <div class="footer-text">
+    <!--<i class="fa fa-facebook-official w3-hover-opacity"></i>-->
+    <a href="https://instagram.com/whatharshposts" target="_blank" class="w3-hover-text-pink"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://snapchat.com/whatharshdoes" target="_blank" class="w3-hover-text-yellow"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+    <!--<i class="fa fa-pinterest-p w3-hover-opacity"></i>-->
+    <a href="https://twitter.com/whatharshtweets" target="_blank" class="w3-hover-text-cyan"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://linkedin.com/in/harshkotwani" target="_blank" class="w3-hover-text-purple"><i class="fa fa-github w3-hover-opacity"></i></a>
+    <a href="https://linkedin.com/in/harshkotwani" target="_blank" class="w3-hover-text-blue"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <p class="w3-medium">Powered by <a href="https://whatharshcodes.github.io" target="_blank" class="w3-hover-text-green">whatharshcodes</a></p>
+  <!-- End footer --></div>
+        
+  <div class="footer-logo2 gradient-text2">Akademy</div>
+      <!-- <div class="footer-list">
+        <ul>
+          <li>About</li>
+          <li>Jobs</li>
+          <li>Contact us</li>
+        </ul>
+      </div> -->
+    </div>
+  </body>
 </html>

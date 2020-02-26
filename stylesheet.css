@@ -1,0 +1,26 @@
+.animatedBox {
+    width: 100%;
+    height: 100%;
+    /*background-image: url('images/done1bg.png');*/
+    
+    background-position: bottom;
+    
+    animation: moveBg 15s linear 0s infinite alternate-reverse running;
+    
+  }
+  
+  @keyframes moveBg {
+       
+        from {background-color: blue;}
+        
+        to {background-color: black;}
+        
+      
+  }
+
+  h1{
+    text-align: center;
+    text-decoration: underline overline dotted white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150px;
+  }

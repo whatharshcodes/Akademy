@@ -1,7 +1,7 @@
 *{margin:0;padding:0;}
 .wrap{width:100%;}
 .gradient-text{
-  background: linear-gradient(to right, black,#E2512D,black);
+  background: linear-gradient(to right, black,#235789,black);
   background-size: 200% 200%;
   animation: rainbow 2s ease-in-out infinite;
   background-clip: text;
@@ -11,7 +11,7 @@
   display:block;
   transition: color .2s ease-in-out;
 }
-.gradient-text:hover{
+.gradient-text{
   color:rgba(0,0,0,0);
 }
 @keyframes rainbow { 
